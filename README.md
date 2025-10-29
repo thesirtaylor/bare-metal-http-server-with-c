@@ -4,7 +4,7 @@ A low-level HTTP server implementation in C that demonstrates how web servers ac
 
 ### Credit
 This work is possible because of Brian "Beef Jorgensen" Hall, who gave a detailed documentation on interacting with the internet through Sockets in his [Beej's Guide to Network Programming](
-https://beej.us/guide/bgnet/html/split-wide/)
+https://beej.us/guide/bgnet/html/split-wide/). [His Homepage](https://beej.us/guide/bgnet/)
 
 ## 🎯 Why This Project?
 
