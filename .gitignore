@@ -1,0 +1,41 @@
+# Build directory
+build/
+
+# Compiled objects
+*.o
+*.obj
+*.out
+
+# Executables
+webserver
+*.exe
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*_old.c
+*_backup.c
+
+# Logs
+*.log
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+tmp/
+temp/
