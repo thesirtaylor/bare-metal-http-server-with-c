@@ -2,6 +2,10 @@
 
 A low-level HTTP server implementation in C that demonstrates how web servers actually work under the hood. This project strips away all the frameworks and abstractions to show you the fundamental mechanics that power every web application.
 
+### Credit
+This work is possible because of Brian "Beef Jorgensen" Hall, who gave a detailed documentation on interacting with the internet through Sockets in his [Beej's Guide to Network Programming](
+https://beej.us/guide/bgnet/html/split-wide/)
+
 ## 🎯 Why This Project?
 
 Ever wondered what's really happening when you use Express, Flask, or Django? This project answers that question by building a complete HTTP server from scratch using only C and POSIX sockets.
@@ -222,4 +226,4 @@ If you have questions or want to discuss how servers work, feel free to open an 
 
 <p align="center">
   <strong>Built with ❤️ to teach the fundamentals of web servers</strong>
-</p># bare-metal-http-server-with-c
+</p>
