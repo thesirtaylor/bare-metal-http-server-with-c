@@ -26,13 +26,6 @@
 │  └───────────────────┬───────────────────────────────────┘  │
 │                      │                                       │
 │                      ▼                                       │
-<!-- │  ┌───────────────────────────────────────────────────────┐  │
-│  │  CONNECTION HANDLER (Multi-threaded)                  │  │
-│  │  • Spawn thread for each client                       │  │
-│  │  • Each client gets independent thread                │  │
-│  └───────────────────┬───────────────────────────────────┘  │
-│                      │                                       │
-│                      ▼                                       │ -->
 │  ┌───────────────────────────────────────────────────────┐  │
 │  │  HTTP PARSER (http_handler.c)                         │  │
 │  │  • recv() - Read request bytes                        │  │
@@ -504,3 +497,14 @@ Stack Allocations (auto-freed):
 ---
 
 **This architecture is the foundation of every web server!**
+
+<!-- 
+
+between SERVER SOCKET & HTTP PARSER
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │  CONNECTION HANDLER (Multi-threaded)                  │  │
+│  │  • Spawn thread for each client                       │  │
+│  │  • Each client gets independent thread                │  │
+│  └───────────────────┬───────────────────────────────────┘  │
+│                      │                                       │
+│                      ▼                                       │ -->
